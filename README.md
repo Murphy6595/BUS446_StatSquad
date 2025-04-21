@@ -1,48 +1,64 @@
-# BUS446_StatSquad
-Drive for Show, Putt for Dough
-# PGA Tour Performance Analysis
+# Drive for Show, Putt for Dough: PGA Tour Performance Analysis
 
-This project analyzes the relationship between driving and putting performance and their impact on success metrics on the PGA Tour. The goal is to determine which aspects of a player's game best predict overall success, including scoring, earnings, and points.
+This project explores how driving and putting statistics influence player success on the PGA Tour. We analyze key performance metrics to determine which factors are the best predictors of scoring, earnings, and overall ranking.
+
 ---
+
 ## Data & Method
 
-### Dataset(s)
-- The dataset includes PGA Tour player statistics such as:
-  - Driving Distance
-  - Fairway Hit Percentage
-  - One-Putt Percentage
-  - Average Score
-  - Money Earned
-  - FedExCup Points
+### Datasets
+- **PGA2022 (1).csv** — Main dataset with player stats for the 2022 PGA Tour season.
+- **Drive for Show and Putt for Dough.xlsx** — Supplementary workbook used for calculations, charts, and intermediate analysis.
 
 ### Source
-- [Insert dataset source here or describe how to access/download the data, e.g. Kaggle, PGA Tour official stats, CSV files included in the repo]
+- Data sourced from official PGA Tour statistics.
 
 ### Methodology
-- Data cleaning and preprocessing using Python (Pandas, NumPy)
-- Exploratory Data Analysis (EDA)
-- Simple Linear Regression and Multiple Linear Regression
-- Correlation analysis and interpretation of R² values
----
-## Visualizations & Final Findings
-- Scatter plots showing relationships between:
-  - Driving Distance vs. Fairway Hit %
-  - Driving Distance vs. Average Score
-  - Proximity to Hole vs. One-Putt %
-- Bar charts and regression plots showing key predictors of success
-- Final findings indicate that:
-  - [Insert summary of main findings here: e.g., "Putting stats have the highest correlation with average score."]
-  - [Insert R² values or other performance metrics]
+- Exploratory Data Analysis (EDA) using Excel and Python
+- Correlation analysis and linear/multiple regression
+- Evaluation of R² values to assess strength of prediction
 
-All visualizations are included in the `/visualizations` folder and embedded in the final report.
+---
+
+## Visualizations & Final Findings
+
+- Scatterplots and regression lines explore:
+  - Driving Distance vs Fairway %
+  - Proximity to Hole vs One-Putt %
+  - Putting and Driving vs Avg Score, Money, and Points
+- Visualizations created in Excel and included in the PowerPoint
+
+See:
+- PowerPoint presentation for annotated visual findings
+- `Drive for Show and Putt for Dough.xlsx` for source charts
+
+Key Findings:
+- Putting metrics had a stronger correlation with scoring than driving metrics.
+- Combining both in a multiple regression model slightly improves predictability.
+- R² values suggest that no single stat fully explains success—performance is multifaceted.
+
+---
 
 ## Business Case Report
 
-You can find the full project report in the `Drive For Show Putt For Dough.pdf` or `Business_Report.md` file in this repository.
+**Drive For Show Putt For Dough.pdf**
 
-### Report Includes:
-- Project objectives and business case
-- Data sources and methodology
-- Key statistical findings
-- Visual insights
-- Final recommendations for players and coaches
+This PDF outlines:
+- Project objectives
+- Business implications
+- Methodology
+- Final insights and recommendations for players and coaches
+
+---
+
+## Conclusion
+
+Success on the PGA Tour is not driven by one skill alone. While long drives help, accurate putting tends to have a greater impact on scoring. This project demonstrates how statistical analysis can guide player development and performance strategy.
+
+---
+
+## Tools Used
+
+- Excel for data analysis and charting
+- GitHub for version control and publishing
+- PowerPoint for visual presentation
