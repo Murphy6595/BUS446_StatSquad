@@ -3,9 +3,7 @@ Drive for Show, Putt for Dough
 # PGA Tour Performance Analysis
 
 This project analyzes the relationship between driving and putting performance and their impact on success metrics on the PGA Tour. The goal is to determine which aspects of a player's game best predict overall success, including scoring, earnings, and points.
-
 ---
-
 ## Data & Method
 
 ### Dataset(s)
@@ -25,11 +23,8 @@ This project analyzes the relationship between driving and putting performance a
 - Exploratory Data Analysis (EDA)
 - Simple Linear Regression and Multiple Linear Regression
 - Correlation analysis and interpretation of R² values
-
 ---
-
-## 📊 Visualizations & Final Findings
-
+## Visualizations & Final Findings
 - Scatter plots showing relationships between:
   - Driving Distance vs. Fairway Hit %
   - Driving Distance vs. Average Score
@@ -41,8 +36,6 @@ This project analyzes the relationship between driving and putting performance a
 
 All visualizations are included in the `/visualizations` folder and embedded in the final report.
 
----
-
 ## Business Case Report
 
 You can find the full project report in the `Final_Report.pdf` or `Business_Report.md` file in this repository.
@@ -53,9 +46,3 @@ You can find the full project report in the `Final_Report.pdf` or `Business_Repo
 - Key statistical findings
 - Visual insights
 - Final recommendations for players and coaches
-
----
-
-## Conclusion
-
-This project highlights how data analysis can uncover valuable insights in sports performance. The findings can support data-driven decisions in coaching, player development, and tour strategy.
