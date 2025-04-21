@@ -28,7 +28,7 @@ This project explores how driving and putting statistics influence player succes
   - Putting and Driving vs Avg Score, Money, and Points
 - Visualizations created in Excel and included in the PowerPoint
 
-See:
+Visit:
 - PowerPoint presentation for annotated visual findings
 - `Drive for Show and Putt for Dough.xlsx` for source charts
 
