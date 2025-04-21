@@ -38,7 +38,7 @@ All visualizations are included in the `/visualizations` folder and embedded in 
 
 ## Business Case Report
 
-You can find the full project report in the `Final_Report.pdf` or `Business_Report.md` file in this repository.
+You can find the full project report in the `Drive For Show Putt For Dough.pdf` or `Business_Report.md` file in this repository.
 
 ### Report Includes:
 - Project objectives and business case
